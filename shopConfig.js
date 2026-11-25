@@ -220,7 +220,7 @@ export const shopConfig = {
     },
   },
 
-  /* ------------------------------------------------------------------
+/* ------------------------------------------------------------------
    * PRODUCT CATALOGUE
    * ⚠️ SAMPLE PRODUCTS — TEMPORARY. Replace these with your real items.
    *
@@ -246,5 +246,153 @@ export const shopConfig = {
    *                  are set separately for each option. A combination with
    *                  no variant can't be ordered.
    * ------------------------------------------------------------------ */
-  products: [],
-};
+  products: [
+    {
+      id: 'c',
+      name: 'C',
+      description:
+        'Pure fishscale double wash, Columbian import. Enquire for variety and larger sizes, cost depends on variety.',
+      image: 'Polish_20261119_223424260.jpg',
+      imageAlt: 'c image',
+      categories: ['Unprocessed'],
+      tags: ['unprocessed', 'white', 'powder', 'stimulant', 'party'],
+      options: [{ name: 'Size', values: ['0.5g', '1g', '1.5g', '3.5g', '7g', '14g', '28g'] }],
+      variants: [
+        { options: { Size: '0.5g' }, price: 40 , stock: 3 },
+        { options: { Size: '1g' }, price: 70, stock: 3 },
+        { options: { Size: '1.5g' }, price: 100, stock: 9 },
+        { options: { Size: '3.5g' }, price: 200, stock: 6 },
+         { options: { Size: '7g' }, price: 350, stock: 3 },
+        { options: { Size: '14g' }, price: 600, stock: 7 },
+        { options: { Size: '28g' }, price: 1100, stock: 2 },
+      ],
+    },
+    {
+      id: 'k',
+      name: 'K',
+      description:
+        'High quality red label, Netherlands import. Enquire for brand, variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_223733844.jpg',
+      imageAlt: 'k image',
+      categories: ['Unprocessed'],
+      tags: ['unprocessed', 'white', 'powder', 'party' ],
+      options: [{ name: 'Size', values: ['1g', '2g', '3.5g', '7g', '14g', '28g'] }],
+      variants: [
+        { options: { Size: '1g' }, price: 25, stock: 8 },
+        { options: { Size: '2g' }, price: 40, stock: 5 },
+        { options: { Size: '3.5g' }, price: 60, stock: 4 },
+        { options: { Size: '7g' }, price: 100, stock: 2 },
+        { options: { Size: '14g' }, price: 180, stock: 9 },
+        { options: { Size: '28g' }, price: 300, stock: 5 },
+      ],
+    },
+    {
+      id: 'md',
+      name: 'MD',
+      description:
+        'Pure champagne, Netherlands import. Enquire for brand variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_225406908.jpg',
+      imageAlt: 'md image',
+      categories: ['Unprocessed'],
+      tags: ['unprocessed', 'stimulant', 'party'],
+      options: [{ name: 'Size', values: ['1g', '2g', '3.5g', '7g', '14g', '28g'] }],
+      variants: [
+        { options: { Size: '1g' }, price: 30, stock: 5 },
+        { options: { Size: '2g' }, price: 50, stock: 8 },
+        { options: { Size: '3.5g' }, price: 70, stock: 4 },
+        { options: { Size: '7g' }, price: 120, stock: 2 },
+        { options: { Size: '14g' }, price: 200, stock: 5 },
+        { options: { Size: '28g' }, price: 360, stock: 8 },
+      ],
+    },
+    {
+      id: 'pnk',
+      name: 'Pink',
+      description:
+        'Premium blend high quality Netherlands import. Enquire for brand variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_224011271.jpg',
+      imageAlt: 'pink image',
+      categories: ['Unprocessed'],
+      tags: ['powder', 'party', 'stimulant', 'unprocessed'],
+      options: [{ name: 'Size', values: ['1g', '2g', '3.5g', '7g', '14g', '28g'] }],
+      variants: [
+        { options: { Size: '1g' }, price: 60, stock: 6 },
+        { options: { Size: '2g' }, price: 110, stock: 8 },
+        { options: { Size: '3.5g' }, price: 180, stock: 4 },
+        { options: { Size: '7g' }, price: 350, stock: 5 },
+        { options: { Size: '14g' }, price: 600, stock: 5 },
+        { options: { Size: '28g' }, price: 1100, stock: 8 },
+      ],
+    },
+    {
+      id: 'xtc',
+      name: 'X',
+      description: 'High strength unadultarated Netherlands import. Enquire for brand variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_225524078.jpg',
+      imageAlt: 'X image',
+      categories: ['Pills', 'Unprocesssed'],
+      tags: ['party', 'unprocessed', 'stimulant'],
+options: [{ name: 'Size', values: ['1', '2', '5', '10', '50', '100'] }],
+      variants: [
+        { options: { Size: '1' }, price: 10, stock: 5 },
+        { options: { Size: '2' }, price: 18, stock: 8 },
+        { options: { Size: '5' }, price: 40, stock: 4 },
+        { options: { Size: '10' }, price: 60, stock: 5 },
+        { options: { Size: '50' }, price: 300, stock: 8 },
+        { options: { Size: '100' }, price: 700, stock: 6 },
+        ],
+    },
+    {
+      id: 'wd',
+      name: 'Bud',
+      description:
+        'High potency, California import. Enquire for brand variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_225645496.jpg',
+      imageAlt: 'bud image',
+      categories: ['Plants'],
+      tags: ['Plants', 'cannabis', 'natural'],
+     options: [{ name: 'Size', values: ['3.5g', '7g', '14g', '28g'] }],
+      variants: [
+        { options: { Size: '3.5g' }, price: 30, stock: 5 },
+        { options: { Size: '7g' }, price: 55, stock: 9 },
+        { options: { Size: '14g' }, price: 100, stock: 4 },
+        { options: { Size: '28g' }, price: 180, stock: 6 },
+     ],
+    },
+    {
+      id: 'hsh',
+      name: 'Hash',
+      description:
+        'Bubble hash, black and sticky, California import. Enquire for brand variety and larger sizes. Cost depends on variety.',
+      image: 'Polish_20261119_225722672.jpg',
+      imageAlt: 'hash image',
+      categories: ['Plants','party'],
+      tags: ['Plants', 'cannabis', 'natural'],
+     options: [{ name: 'Size', values: ['1g', '2g', '3g', '6g', '12g', '25g'] }],
+      variants: [
+        { options: { Size: '1g' }, price: 10, stock: 6 },
+        { options: { Size: '2g' }, price: 20, stock: 8 },
+        { options: { Size: '3g' }, price: 30, stock: 4 },
+        { options: { Size: '6g' }, price: 50, stock: 4 },
+        { options: { Size: '12g' }, price: 90, stock: 4 },
+        { options: { Size: '25g' }, price: 170, stock: 5 },
+  ],
+    },
+    {
+      id: 'drreddy',
+      name: 'Dr Reddy`s Pregabalin 300mg',
+      description:
+        'Pregabalin is a gabapentinoid prescribed for the management of neuropathic pain, seizures, and generalised anxiety disorder. All medicines are authentic and sealed pharmacy stock. Enquire for variety and larger sizes, cost depends on variety.',
+      image: 'Polish_20261119_225814193.jpg',
+      imageAlt: 'drreddy image',
+      categories: ['Pills', 'Medicine'],
+      tags: ['anti-anxiety', 'gaba', 'medicine', 'pills'],
+     options: [{ name: 'Size', values: ['14pills', '56pills'] }],
+      variants: [
+        { options: { Size: '14pills' }, price: 20, stock: 8 },
+        { options: { Size: '56pills' }, price: 60, stock: 10 },
+       ],
+    },
+  ],
+
+  
